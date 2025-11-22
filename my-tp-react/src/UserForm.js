@@ -9,7 +9,7 @@ function UserForm() {
     e.preventDefault();
     if (username.trim() === "") return;
 
-    setUsers([...users, username]); // ajouter username à la liste
+    setUsers([...users, username]); 
     setUsername("");
     setPassword("");
   };
