@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; // il manquait peut-être React ou useState
+import React, { useState } from 'react'; 
 
 function ToggleButton() {
   const [clicked, setClicked] = useState(false);
@@ -11,4 +11,4 @@ function ToggleButton() {
   );
 }
 
-export default ToggleButton; // important ! export par défaut
+export default ToggleButton; 
