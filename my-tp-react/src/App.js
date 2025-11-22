@@ -5,7 +5,7 @@ import AppButtons from './AppButtons';
 import Counter from './Counter';
 import DisplayTab from './DisplayTab';
 import UserForm from './UserForm';
-import DivForm from './DivForm'; // importer le composant
+import DivForm from './DivForm'; 
 
 function App() {
   const tab1 = ["hello", "world", "from", "react"];
